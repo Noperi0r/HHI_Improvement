@@ -2,7 +2,7 @@
 
 
 ![teaser_image](assets/Figure1.png)
-
+*General Architecture Figure of This Model*  
 ---
 
 ## 1. Project Summary
@@ -230,12 +230,7 @@ Outputs:
   <img src="assets/Demo.gif" width="600" />
 </p>
 
-*Sample two-person interaction motion generated from a text prompt.*
-
-> Note: If you only have an MP4 (e.g., `assets/infer_best_fid_ts20_cs2_topkr0.9_02_00.mp4`), convert it to GIF once:
-```bash
-ffmpeg -i assets/infer_best_fid_ts20_cs2_topkr0.9_02_00.mp4 -vf "fps=15,scale=600:-1:flags=lanczos" -loop 0 assets/infer_best_fid_ts20_cs2_topkr0.9_02_00.gif
-```
+*Sample two-person interaction motion generated from a text prompt.*  
 
 ---
 
