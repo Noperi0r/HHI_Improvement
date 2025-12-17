@@ -1,6 +1,4 @@
-# InterMask: 3D Human Interaction Generation via Collaborative Masked Modeling
-
-
+# Word-Motion Cross Attention for Fine-Grained Text Guided Human-Human Interaction Motion Generation
 ![teaser_image](assets/Figure1.png)
 *General Architecture Figure of This Model*  
 ---
