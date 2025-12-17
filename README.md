@@ -237,10 +237,8 @@ Outputs:
 ### 4.1 Conclusion
 We improve an InterMask-style two-person motion generation pipeline by strengthening **word-level text conditioning** (via Word-Motion Cross Attention), enabling **multi-GPU distributed training** for practical hardware, and supporting **experiment tracking** through optional WandB logging.
 
-### 4.2 Future Work (Affordance scenarios)
-A natural next step is to extend generation beyond text-only conditioning by integrating **affordance-aware constraints** from the environment. For example, in a **VR/AR interaction authoring** scenario, the model could use object affordances (graspable, pushable, sit-on-able) and scene geometry (surface normals, collision, reachable regions) to produce motions that are not only plausible but also *physically and functionally compatible* with the surrounding context.
-
-Another scenario is **human-robot or human-digital-human collaboration**, where affordances can act as a shared interface between language and action. By grounding prompts like “hand over the cup” or “help them stand up” into affordance-driven intermediate targets (contact points, support regions, handover poses), the system could improve safety, interpretability, and controllability—especially for fine-grained interactions.
+### 4.2 Future Work
+In future work, we plan to move beyond purely text-conditioned generation by incorporating interaction cues commonly used in HOI/HSI research as additional conditioning signals. For instance, structured constraints such as contact regions, contact timing, support/load-transfer relations, and reachability between two people (or a person and an object) can be represented as intermediate signals and integrated into the generation process to improve interaction consistency and physical plausibility.
 
 ### 4.3 Acknowledgements
 This repository builds on the InterMask / InterGen ecosystem and uses InterHuman and Inter-X datasets and their associated evaluation tooling. Please refer to the linked upstream repositories and dataset licenses for usage terms.
