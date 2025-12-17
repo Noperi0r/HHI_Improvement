@@ -227,7 +227,7 @@ Outputs:
 ### 3.2 Example results (GIF)
 
 <p align="center">
-  <img src="assets/infer_best_fid_ts20_cs2_topkr0.9_02_00.gif" width="600" />
+  <img src="assets/Demo.gif" width="600" />
 </p>
 
 *Sample two-person interaction motion generated from a text prompt.*
