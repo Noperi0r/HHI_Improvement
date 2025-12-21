@@ -239,6 +239,3 @@ We improve an InterMask-style two-person motion generation pipeline by strengthe
 
 ### 4.2 Future Work
 In future work, we plan to move beyond purely text-conditioned generation by incorporating interaction cues commonly used in HOI/HSI research as additional conditioning signals. For instance, structured constraints such as contact regions, contact timing, support/load-transfer relations, and reachability between two people (or a person and an object) can be represented as intermediate signals and integrated into the generation process to improve interaction consistency and physical plausibility.
-
-### 4.3 Acknowledgements
-This repository builds on the InterMask / InterGen ecosystem and uses InterHuman and Inter-X datasets and their associated evaluation tooling. Please refer to the linked upstream repositories and dataset licenses for usage terms.
